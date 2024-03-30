@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    
+    text-decoration: underline;
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    text-decoration: dashed;
+}
+h4 {
+    text-align: left;
+}
+header{
+    background-color: aqua;
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    text-align: center;
+}
+ul{
+    text-align: left;
+}
+table{
+    text-align: justify;
+}
+nav{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
