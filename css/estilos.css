@@ -1,82 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 h1 {
-    
+
     text-decoration: underline;
     text-align: center;
 }
+
 h2 {
     text-decoration: underline;
     text-align: center;
 }
+
 h3 {
     text-align: center;
     text-decoration: dashed;
 }
+
 h4 {
     text-align: left;
 }
-header{
+
+header {
     background-color: aqua;
 }
-footer{
+
+footer {
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: aqua;
     text-align: center;
 }
-body{
+
+body {
     background-color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main{
+
+main {
     text-align: center;
 }
-ul{
+
+ul {
     text-align: left;
 }
-table{
+
+table {
     text-align: justify;
 }
-nav{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-#cocinero{
+
+#cocinero {
     width: 60%;
     height: 15%;
     border-radius: 50px;
 }
-#cocinas{
-    width:60%;
+
+#cocinas {
+    width: 60%;
     height: 15%;
-    border-radius:50px ;
-}
-#bizcochuelo{
-    width:30%;
-    height:10%;
     border-radius: 50px;
 }
-.productos{
-    font-style: italic;
-    font-size: large;
+
+#bizcochuelo {
+    width: 30%;
+    height: 10%;
+    border-radius: 50px;
 }
-.formulario{
-    
+
+
+.formulario {
+
     text-align: center;
-    background-color: (255,255,255,0,4);
+    background-color: (255, 255, 255, 0, 4);
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
     width: 90%;
-    height:60% ;
-    margin:auto;
-    
-    
+    height: 60%;
+    margin: auto;
 
-    
+}
 
-    
+a:link {
+    color: #da740e;
+
+}
+
+a:hover {
+    background-color: white;
+    animation: heartbeat 1s infinite;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:active {
+    background-color: red;
+    color: black;
+}
+
+.animacion {
+
+    position: relative;
+    display: inline-block;
+
+}
+
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(0.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0.75);
+    }
+
+    100% {
+        transform: scale(0.75);
+    }
 }
