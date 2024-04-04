@@ -177,3 +177,9 @@ a:active {
         transform: scale(0.75);
     }
 }
+#quienes_somos{
+    background-color: rgb(246, 238, 193);
+}
+#recetas{
+    background-color: rgb(246, 238, 193);
+}
