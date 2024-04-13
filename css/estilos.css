@@ -1,18 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 html {
+
     color: black;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 h1 {
     color: brown;
     text-decoration: underline;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
 }
 
@@ -31,51 +42,53 @@ h4 {
 }
 
 header {
-    background-color: rgb(216, 240, 240);
+    flex-shrink: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(24, 228, 228);
 }
 
 footer {
-    clear: both;
-    
+
+    flex-shrink: 0;
+    width: 100%;
+    padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(216, 240, 240);
+    background-color: rgb(24, 228, 228);
     text-align: center;
 }
 
 body {
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+
     .philosopher-regular {
         font-family: "Philosopher", sans-serif;
         font-weight: 400;
         font-style: normal;
-      }
-      
-      .philosopher-bold {
+    }
+
+    .philosopher-bold {
         font-family: "Philosopher", sans-serif;
         font-weight: 700;
         font-style: normal;
-      }
-      
-      .philosopher-regular-italic {
+    }
+
+    .philosopher-regular-italic {
         font-family: "Philosopher", sans-serif;
         font-weight: 400;
         font-style: italic;
-      }
-      
-      .philosopher-bold-italic {
+    }
+
+    .philosopher-bold-italic {
         font-family: "Philosopher", sans-serif;
         font-weight: 700;
         font-style: italic;
-      }
-      
+    }
+
 
 }
 
 main {
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -88,7 +101,9 @@ table {
 }
 
 nav {
-    font-family:'Times New Roman', Times, serif
+
+
+    font-family: 'Times New Roman', Times, serif
 }
 
 #cocinero {
@@ -116,12 +131,11 @@ nav {
 
     text-align: center;
     background-color: (255, 255, 255, 0, 4);
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    width: 90%;
-    height: 60%;
-    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+
 
 }
 
@@ -177,9 +191,11 @@ a:active {
         transform: scale(0.75);
     }
 }
-#quienes_somos{
-    background-color: rgb(246, 238, 193);
-}
-#recetas{
-    background-color: rgb(246, 238, 193);
+
+.fondo {
+    background-image: url(..//img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
